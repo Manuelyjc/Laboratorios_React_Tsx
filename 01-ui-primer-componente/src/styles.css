@@ -6,6 +6,7 @@ body {
     font-family: sans-serif;
     margin: 20px;
     padding: 0;
+    
 }
 
 h1 {
@@ -47,3 +48,13 @@ ul {
 }
 
 img { margin: 0 10px 10px 0; height: 90px; }
+
+
+.container {
+    display: flex; /* Utiliza flexbox para centrar contenido */
+    flex-direction: column; /* Alinea el contenido en una columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    height: 100vh; /* Establece la altura al 100% de la ventana del navegador */
+    text-align: center; /* Alinea el texto en el centro */
+}

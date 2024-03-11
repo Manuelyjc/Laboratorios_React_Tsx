@@ -14,6 +14,7 @@ const TeaSet: React.FC = () => {
             <Cup guest={1} />
             <Cup guest={2} />
             <Cup guest={3} />
+            <Cup guest={4} />
         </>
     );
 };
